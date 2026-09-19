@@ -170,3 +170,11 @@ h1,h2,.hero h1,.recipe-hero h1,.card h3,.panel h2,.recipe-card h3,.step h3,
  .grid-3{grid-template-columns:1fr}
  .grid-3 .card{max-width:680px;width:100%;margin-inline:auto}
 }
+
+/* V5.3 brand identity */
+.brand.brand-image{display:flex;align-items:center;width:min(290px,31vw);height:64px}
+.brand.brand-image:after{content:none}
+.brand.brand-image img{display:block;width:100%;height:58px;object-fit:contain;object-position:left center}
+.newsletter-brand-badge{width:94px;height:94px;object-fit:contain;margin:0 auto 12px;filter:drop-shadow(0 3px 0 rgba(41,35,31,.12))}
+@media(max-width:850px){.brand.brand-image{width:220px;height:58px}.brand.brand-image img{height:52px}}
+@media(max-width:620px){.brand.brand-image{width:180px;height:52px}.brand.brand-image img{height:46px}.newsletter-brand-badge{width:78px;height:78px}}
