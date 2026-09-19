@@ -1,0 +1,4 @@
+const menuBtn=document.querySelector('.menu-btn');const navLinks=document.querySelector('.nav-links');if(menuBtn&&navLinks){menuBtn.addEventListener('click',()=>navLinks.classList.toggle('open'));}
+const search=document.getElementById('recipeSearch');if(search){const cards=[...document.querySelectorAll('[data-recipe-card]')];const empty=document.querySelector('.search-empty');search.addEventListener('input',()=>{const q=search.value.toLowerCase().trim();let shown=0;cards.forEach(c=>{const hit=c.innerText.toLowerCase().includes(q)||c.dataset.keywords?.toLowerCase().includes(q);c.style.display=hit?'block':'none';if(hit)shown++;});if(empty)empty.style.display=shown?'none':'block';});}
+function printRecipe(){window.print();}
+const form=document.getElementById('newsletterForm');if(form){form.addEventListener('submit',e=>{e.preventDefault();const btn=form.querySelector('button');btn.textContent='You’re at the table ♡';btn.disabled=true;});}
