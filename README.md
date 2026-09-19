@@ -15,3 +15,12 @@ QA/polish pass:
 Deploy:
 Upload the CONTENTS of this folder to the root of the existing GitHub repo and commit to `main`.
 Cloudflare should rebuild automatically.
+
+
+V5.4.1 mobile fix:
+- Desktop V5.4 hero remains unchanged.
+- Compact mobile hero spacing and typography.
+- CTA buttons sit side-by-side on phones.
+- Original hero mussels photo remains unchanged.
+- Hero food image appears sooner in the mobile scroll.
+- Mobile hamburger uses the brand forest color.

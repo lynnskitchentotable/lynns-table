@@ -198,3 +198,81 @@ h1,h2,.hero h1,.recipe-hero h1,.card h3,.panel h2,.recipe-card h3,.step h3,
   .hero-frame{aspect-ratio:4/5;transform:none;border-radius:28px}
   .hero-frame img{object-position:center center}
 }
+
+
+/* V5.4.1 — mobile hero optimization (desktop V5.4 remains unchanged) */
+@media (max-width:620px){
+  .nav-inner{height:76px}
+  .brand.brand-image{width:190px;height:56px}
+  .brand.brand-image img{height:50px}
+  .menu-btn{color:var(--forest);font-size:1.55rem;line-height:1}
+
+  .hero{
+    padding:38px 0 48px;
+    background:
+      radial-gradient(circle at 92% 18%,rgba(246,205,91,.72) 0 92px,transparent 93px),
+      var(--cream);
+  }
+  .hero-grid{gap:30px}
+  .hero .eyebrow{margin-bottom:12px}
+  .hero h1{
+    font-size:clamp(3.05rem,13.2vw,3.7rem);
+    line-height:.94;
+    letter-spacing:-.055em;
+    margin:.12em 0 .28em;
+  }
+  .hero-sub{
+    display:block;
+    width:max-content;
+    max-width:100%;
+    font-size:.91rem;
+    line-height:1.25;
+    margin:14px 0 18px;
+    padding:8px 12px;
+    transform:none;
+  }
+  .hero .lead{
+    font-size:1.02rem;
+    line-height:1.55;
+    margin:0 0 20px;
+    max-width:35rem;
+  }
+  .hero .cta-row{
+    display:flex;
+    flex-wrap:nowrap;
+    gap:10px;
+    align-items:center;
+    margin-top:0;
+  }
+  .hero .cta-row .btn{
+    padding:12px 15px;
+    font-size:.9rem;
+    white-space:nowrap;
+    box-shadow:3px 3px 0 var(--ink);
+  }
+  .hero .cta-row .btn.primary{flex:1 1 auto}
+  .hero .cta-row .btn.ghost{flex:0 0 auto}
+
+  .hero-visual{margin-top:2px}
+  .hero-frame{
+    aspect-ratio:1.12/1;
+    border-radius:24px;
+    box-shadow:8px 8px 0 var(--wine);
+  }
+  .hero-frame:after{inset:10px;border-radius:18px}
+  .hero-frame img{object-position:center 50%}
+  .hero-note{
+    margin:-22px 12px 0 auto;
+    max-width:90%;
+    padding:9px 13px;
+    font-size:.82rem;
+    box-shadow:4px 4px 0 var(--butter);
+  }
+}
+
+@media (max-width:390px){
+  .hero h1{font-size:2.95rem}
+  .hero .cta-row{gap:8px}
+  .hero .cta-row .btn{padding:11px 12px;font-size:.82rem}
+  .hero-sub{font-size:.84rem}
+}
