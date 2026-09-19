@@ -24,3 +24,10 @@ V5.4.1 mobile fix:
 - Original hero mussels photo remains unchanged.
 - Hero food image appears sooner in the mobile scroll.
 - Mobile hamburger uses the brand forest color.
+
+
+V5.4.2 Start Here update:
+- Grilled Pork Skewers is moved ahead of the mussels card in the Start Here section.
+- The skewers card uses Lynn's original IMG_4621(1).jpeg photo, copied unchanged.
+- No AI image, retouching, or photo editing.
+- V5.4.1 mobile hero fixes are retained.
