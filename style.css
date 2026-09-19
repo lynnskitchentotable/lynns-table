@@ -178,3 +178,23 @@ h1,h2,.hero h1,.recipe-hero h1,.card h3,.panel h2,.recipe-card h3,.step h3,
 .newsletter-brand-badge{width:94px;height:94px;object-fit:contain;margin:0 auto 12px;filter:drop-shadow(0 3px 0 rgba(41,35,31,.12))}
 @media(max-width:850px){.brand.brand-image{width:220px;height:58px}.brand.brand-image img{height:52px}}
 @media(max-width:620px){.brand.brand-image{width:180px;height:52px}.brand.brand-image img{height:46px}.newsletter-brand-badge{width:78px;height:78px}}
+
+
+/* V5.4 — homepage hero refresh. Everything below the hero keeps V5.3 styling. */
+@media (min-width:851px){
+  .brand.brand-image{width:350px;height:78px}
+  .brand.brand-image img{height:70px}
+  .nav-inner{min-height:92px}
+  .hero{padding:56px 0 72px;background:linear-gradient(105deg,#fff9f0 0%,#fff9f0 47%,#f7eee3 47%,#f7eee3 100%)}
+  .hero-grid{grid-template-columns:.88fr 1.12fr;gap:52px}
+  .hero h1{font-size:clamp(4rem,5.8vw,6.4rem);line-height:.92;letter-spacing:-.055em}
+  .hero .lead{max-width:590px}
+  .hero-frame{aspect-ratio:1.08/1;border-radius:38px;transform:none;box-shadow:12px 12px 0 var(--wine)}
+  .hero-frame:after{border-radius:28px}
+  .hero-frame img{object-fit:cover;object-position:center 52%}
+  .hero-note{margin:-30px 24px 0 auto;padding:13px 19px;background:#fff8e8;box-shadow:5px 5px 0 var(--butter)}
+}
+@media (max-width:850px){
+  .hero-frame{aspect-ratio:4/5;transform:none;border-radius:28px}
+  .hero-frame img{object-position:center center}
+}
