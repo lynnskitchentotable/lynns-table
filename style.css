@@ -276,3 +276,10 @@ h1,h2,.hero h1,.recipe-hero h1,.card h3,.panel h2,.recipe-card h3,.step h3,
   .hero .cta-row .btn{padding:11px 12px;font-size:.82rem}
   .hero-sub{font-size:.84rem}
 }
+
+/* V5.4.3 — Start Here skewers card polish */
+.card img[src="pork-skewers-start-here.jpeg"]{
+  object-fit:cover;
+  object-position:50% 72%;
+  filter:saturate(1.10) contrast(1.045) brightness(1.02);
+}
