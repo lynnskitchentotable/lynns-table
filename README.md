@@ -31,3 +31,11 @@ V5.4.2 Start Here update:
 - The skewers card uses Lynn's original IMG_4621(1).jpeg photo, copied unchanged.
 - No AI image, retouching, or photo editing.
 - V5.4.1 mobile hero fixes are retained.
+
+
+V5.4.4 Final Homepage QA:
+- Added an intermediate laptop/desktop hero breakpoint to prevent awkward four-line headline wrapping.
+- Standardized Start Here card image heights to remove large dead-space imbalance.
+- Replaced the Start Here mussels creator photo with the existing original hero mussels food photo.
+- Retained the original pork-skewer photo with subtle browser-side presentation polish.
+- Preserved V5.4.3 recipe order: Pork Skewers → Braised Pork Ribs → Mussels.
